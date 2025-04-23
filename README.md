@@ -5,7 +5,7 @@ This project aims to develop a model for discriminating between twin faces using
 ## Project Structure
 
 ```
-twin-face-discrimination
+SplitFace
 ├── src
 │   ├── data_loading
 │   │   ├── dataset.py          # Handles loading images and transformations
