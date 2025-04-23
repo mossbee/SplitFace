@@ -1,0 +1,26 @@
+paths:
+  train_data: "path/to/train_data"
+  pretrain: "path/to/pretrain"
+  output_dir: "path/to/output"
+  
+model:
+  backbone: "ViT-B_16"
+  num_classes: 2
+  pretrained: true
+
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  warmup_epochs: 5
+  fine_tune_epochs: 20
+
+augmentation:
+  resize: [224, 224]
+  random_crop: true
+  normalization: true
+
+loss:
+  classification: "cross_entropy"
+  contrastive: "NT_Xent"
