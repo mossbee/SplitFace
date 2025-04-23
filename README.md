@@ -1,4 +1,4 @@
-# Twin Face Discrimination Project
+# SplitFace: Cross-Attention Learning for Twin Face Separation.
 
 This project aims to develop a model for discriminating between twin faces using a Vision Transformer (ViT) architecture augmented with a Part Selection Module (PSM). The model is trained to identify subtle differences between images of twins, leveraging advanced techniques in deep learning.
 
